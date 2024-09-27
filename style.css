@@ -29,15 +29,15 @@ input{
 .keys{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 15px;
+    gap: 10px;
     padding: 30px 10px;
 }
 
 button{
-    height: 70px;
+    height: 60px;
     border-radius: 50px;
     border: none;
-    width: 70px;
+    width: 60px;
     font-size: 18px;
     color: white;
     cursor: pointer;
