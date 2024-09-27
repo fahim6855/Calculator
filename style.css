@@ -7,7 +7,7 @@ body{
 }
 
 .calculator{
-    max-width: 360px;
+    max-width: 450px;
     background-color: black;
     overflow: hidden;
     border-radius: 20px;
@@ -28,15 +28,15 @@ input{
 .keys{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
+    gap: 15px;
     padding: 30px 10px;
 }
 
 button{
-    height: 55px;
+    height: 60px;
     border-radius: 50px;
     border: none;
-    width: 55px;
+    width: 60px;
     font-size: 18px;
     color: white;
     cursor: pointer;
