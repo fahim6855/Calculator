@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: bisque;
+    transform : scale(1.2);
 }
 
 .calculator{
