@@ -34,10 +34,10 @@ input{
 }
 
 button{
-    height: 52px;
+    height: 55px;
     border-radius: 50px;
     border: none;
-    width: 30px;
+    width: 55px;
     font-size: 18px;
     color: white;
     cursor: pointer;
