@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="calculator">
+        <input type="text" placeholder="0" disabled>
+
+        <div class="keys">
+            <button onclick="root()" class="color-btn">√</button>
+            <button onclick="keyInput('**')" class="color-btn">^</button>
+            <button onclick="clearInput()" class="color-btn">C</button>
+            <button onclick="keyInput('/')" class="color-btn">÷</button>
+
+            <button onclick="keyInput('7')">7</button>
+            <button onclick="keyInput('8')">8</button>
+            <button onclick="keyInput('9')">9</button>
+            <button onclick="keyInput('*')" class="color-btn">×</button>
+
+            <button onclick="keyInput('4')">4</button>
+            <button onclick="keyInput('5')">5</button>
+            <button onclick="keyInput('6')">6</button>
+            <button onclick="keyInput('-')" class="color-btn">-</button>
+
+            <button onclick="keyInput('1')">1</button>
+            <button onclick="keyInput('2')">2</button>
+            <button onclick="keyInput('3')">3</button>
+            <button onclick="keyInput('+')" class="color-btn">+</button>
+
+            <button onclick="keyInput('0')">0</button>
+            <button onclick="keyInput('.')">.</button>
+            <button onclick="deleteInput()">DEL</button>
+            <button onclick="answer()" class="color-btn">=</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
